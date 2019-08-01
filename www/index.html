@@ -132,7 +132,7 @@
       <div class="wrapper">
       
       <p class="center small-font-dim trn" data-trn-key="forgot_pass_message">
-      Enter your email address you registered<br/>with and we will send you
+      Enter the email address you registered<br/>with and we will send you
       <br/>a unique verification code.
       </p>
       
@@ -170,7 +170,7 @@
         
     <ons-list-item onclick="menu.setMainPage('bookingHome.html', {closeMenu: true})" class="bottom-menu-item">
       <ons-icon icon="ion-android-restaurant"></ons-icon> 
-      <span class="trn" data-trn-key="booking_table">Table Bookings</span>
+      <span class="trn" data-trn-key="booking_table">Table Reservations</span>
     </ons-list-item>    
     
     <ons-list-item onclick="menu.setMainPage('settings.html', {closeMenu: true})" class="bottom-menu-item">
@@ -247,7 +247,7 @@
     
     <ons-tab page="bookingTab.html" class="tabs">
      <ons-icon icon="ion-android-restaurant" class="tabicon"></ons-icon>
- <p class="trn concat-text" data-trn-key="booking">Table Bookings</p>
+ <p class="trn concat-text" data-trn-key="booking">Table Reservations</p>
     </ons-tab>    
     
     
@@ -421,7 +421,7 @@
      
      <ons-col>            
        <button class="button grey-btn button--large" onclick="TrackOrder();">
-	    <span class="trn" data-trn-key="track_order">Track Order</span>
+	    <span class="trn" data-trn-key="track_order">Track the Order</span>
 	  </button>
      </ons-col>     
           
@@ -565,7 +565,7 @@
      <div class="settings-header trn" data-trn-key="notifications">Notifications</div>
      <ons-list modifier="inset" class="settings-list">        
         <ons-list-item >
-          <span class="trn" data-trn-key="enabled_push_notification">Enabled Push Notification</span>
+          <span class="trn" data-trn-key="enabled_push_notification">Enable Push Notification</span>
           <ons-switch modifier="list-item" var="enabled_push" name="enabled_push" id="enabled_push"  ></ons-switch>
         </ons-list-item>
       </ons-list>
@@ -591,7 +591,7 @@
         </ons-list-item>
         
         <ons-list-item >
-          <span class="trn" data-trn-key="disabled">Disable</span>
+          <span class="trn" data-trn-key="disabled">Disable It</span>
           <ons-switch modifier="list-item" var="food_option_not_available_disabled" name="food_option_not_available_disabled" id="food_option_not_available_disabled" onchange="foodOptions(2)"   ></ons-switch>
         </ons-list-item>
       
@@ -616,11 +616,11 @@
         
       </ons-list>
       
-      <div class="settings-header trn" data-trn-key="voucher">Voucher</div>
+      <div class="settings-header trn" data-trn-key="voucher">Promotions</div>
       <ons-list modifier="inset" class="settings-list">        
       
        <ons-list-item >
-          <span class="trn" data-trn-key="enabled_voucher">Enable Voucher</span>
+          <span class="trn" data-trn-key="enabled_voucher">Enable Promo Code</span>
           <ons-switch modifier="list-item" var="merchant_enabled_voucher" name="merchant_enabled_voucher" id="merchant_enabled_voucher" ></ons-switch>
         </ons-list-item>
         
@@ -641,16 +641,16 @@
                
       </ons-list>
       
-      <div class="settings-header trn" data-trn-key="table_booking">Table Booking</div>
+      <div class="settings-header trn" data-trn-key="table_booking">Table Reservation</div>
       <ons-list modifier="inset" class="settings-list">        
       
        <ons-list-item >
-          <span class="trn" data-trn-key="disabled_table_booking">Disable Table Booking</span>
+          <span class="trn" data-trn-key="disabled_table_booking">Disable Table Reservation</span>
           <ons-switch modifier="list-item" var="merchant_table_booking" name="merchant_table_booking" id="merchant_table_booking" ></ons-switch>
         </ons-list-item>
         
        <ons-list-item >
-          <span class="trn" data-trn-key="accept_booking_sameday">Accept booking same day</span>
+          <span class="trn" data-trn-key="accept_booking_sameday">Accept same day reservations</span>
           <ons-switch modifier="list-item" var="accept_booking_sameday" name="accept_booking_sameday" id="accept_booking_sameday" ></ons-switch>
         </ons-list-item> 
                
@@ -965,7 +965,7 @@
        </ons-toolbar-button>        
     </div> 
     <div class="center white trn page_label_book" data-trn-key="booking_table">      
-      Booking Table
+      Table Reservations
     </div>      
   </ons-toolbar>
   
@@ -973,12 +973,12 @@
   
     <ons-tab page="tablePending.html"active="true" class="tabs">
 	 <ons-icon icon="ion-coffee" class="tabicon"></ons-icon>
-	 <p class="trn concat-text" data-trn-key="pending_booking">Pending Booking</p>
+	 <p class="trn concat-text" data-trn-key="pending_booking">Pending reservations</p>
 	</ons-tab>
 	
 	<ons-tab page="tableAll.html"  class="tabs">
 	 <ons-icon icon="ion-wineglass" class="tabicon"></ons-icon>
-	 <p class="trn concat-text" data-trn-key="all_booking">All Booking</p>
+	 <p class="trn concat-text" data-trn-key="all_booking">All Reservations</p>
 	</ons-tab>
 
   </ons-tabbar>
@@ -1091,7 +1091,7 @@
       </div>
      
       <button class="booking-btn trn button green-btn button--large" onclick="bookingChangeStats();" data-trn-key="getting_booking">	    
-      Getting booking details
+      Getting reservation details
       </button>
        
       <p class="small-font-dim text-center booking-notes"></p>
@@ -1151,7 +1151,7 @@
        </ons-list-item>    
        
        <ons-list-item modifier="chevron" onclick="showDriverList();" > 
-       <span class="trn driver_selected" data-trn-key="assign_driver">Assign Driver</span>       
+       <span class="trn driver_selected" data-trn-key="assign_driver">Assign to Rider</span>       
        </ons-list-item>    
        
      </ons-list>   
@@ -1189,7 +1189,7 @@
      
    <ons-toolbar inline>
       <div class="center white trn" data-trn-key="assign_driver" >
-        Assign Driver
+        Assign Rider
       </div>
     </ons-toolbar>
     

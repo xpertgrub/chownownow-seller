@@ -10,7 +10,7 @@
         Chow Now Now Sellers App
     </description>
     <author email="xpertgrub@gmail.com" href="http://www.xpertgrub.com">
-        www.xpertgrub.com
+        Xpert Grub LLC
     </author>
     
     <content src="index.html" />
@@ -38,7 +38,7 @@
 	<gap:plugin name="cordova-plugin-buildinfo" source="npm" spec="2.0.1"  />
 	
 	<gap:plugin name="cordova.plugins.diagnostic" source="npm" spec="4.0.0" />	
-	<gap:plugin spec="https://github.com/katzer/cordova-plugin-local-notifications.git#6d1b27f" source="git" />	
+	<gap:plugin spec="https://github.com/xpertgrub/cordova-plugin-local-notifications.git#6d1b27f" source="git" />	
 	
 	<plugin name="cordova-plugin-insomnia" version="4.3.0" source="npm" /> 
 	
@@ -66,23 +66,23 @@
 	</edit-config>
 	
 	<edit-config target="NSPhotoLibraryUsageDescription" file="*-Info.plist" mode="merge">
-	    <string>need photo library access to get images</string>
+	    <string>needs photo library access to get pictures from there</string>
 	</edit-config>
 	
 	<edit-config target="NSLocationWhenInUseUsageDescription" file="*-Info.plist" mode="merge">
-	    <string>need location access to find vendors nearby</string>
+	    <string>needs location access to find things nearby</string>
 	</edit-config>
 	
 	<edit-config target="NSLocationAlwaysAndWhenInUseUsageDescription" file="*-Info.plist" mode="merge">
-	    <string>need location access to find vendors nearby</string>
+	    <string>needs location access to find things nearby</string>
 	</edit-config>
 	
 	<edit-config target="NSLocationAlwaysUsageDescription" file="*-Info.plist" mode="merge">
-	    <string>need location access to find vendors nearby</string>
+	    <string>needs location access to find things nearby</string>
 	</edit-config>
 	
 	<edit-config target="NSPhotoLibraryAddUsageDescription" file="*-Info.plist" mode="merge">
-	    <string>need photo library access to save pictures</string>
+	    <string>needs photo library access to save pictures there</string>
 	</edit-config>
 	
 	<edit-config target="NSMicrophoneUsageDescription" file="*-Info.plist" mode="merge">
