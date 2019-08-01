@@ -22,8 +22,8 @@
     <preference name="ShowSplashScreenSpinner" value="false" />	 
     <preference name="KeepRunning" value="true"/>
     <preference name="android-minSdkVersion" value="19" />
-    <preference name="android-targetSdkVersion" value="28" />    
-    <preference name="phonegap-version" value="cli-9.0.0" />
+    <preference name="android-targetSdkVersion" value="26" />    
+    <preference name="phonegap-version" value="cli-8.1.1" />
 		
 	<gap:plugin name="cordova-plugin-whitelist" source="npm" />
     <gap:plugin name="phonegap-plugin-push" source="npm" spec="2.1.2"  />   
